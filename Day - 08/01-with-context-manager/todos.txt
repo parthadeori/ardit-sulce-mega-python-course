@@ -1,0 +1,4 @@
+clean
+wash
+shower
+write
