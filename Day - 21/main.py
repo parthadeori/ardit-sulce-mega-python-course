@@ -16,3 +16,8 @@ with col2:
     I have learn to program in Python by watching his tutorials on Udemy.
     """
     st.info(content)
+
+content2 = """
+    Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
