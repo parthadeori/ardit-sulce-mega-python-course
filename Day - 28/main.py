@@ -3,8 +3,10 @@ from send_email import send_email
 
 api_key = "246a3c2f057742c8b47478d0052a9d81"
 
+topic = "tesla"
+
 ### YOU HAVE TO UPDATE THIS URL FROM NEWSAPI IF YOU ARE RUNNING THIS SCRIPT ON OR AFTER MARCH, 2023
-url = "https://newsapi.org/v2/everything?q=tesla&from=2023-01-08&sortBy=publishedAt&apiKey=246a3c2f057742c8b47478d0052a9d81&language=en"
+url = f"https://newsapi.org/v2/everything?q={topic}&from=2023-01-08&sortBy=publishedAt&apiKey=246a3c2f057742c8b47478d0052a9d81&language=en"
 
 
 # Make request
